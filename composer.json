@@ -1,0 +1,30 @@
+{
+    "name": "bins/cleancode",
+    "description": "Clean code",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bintou N'Diaye",
+            "email": "bintou.ndy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Aston\\": "src/Aston"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aston\\": "tests/Aston"
+        }
+    },
+    "scripts": {
+        "phpunit": "phpunit --color tests/"
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    }
+}
